@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Snackapp</string>
+    <string name="title_home">首页</string>
+    <string name="title_snack">点菜</string>
+    <string name="title_place">下单</string>
+    <string name="title_my">我的</string>
+    <string name="snack_add_btn">+</string>
+    <string name="place_money_label">合计:</string>
+    <string name="place_order_btn">下单</string>
+    <string name="place_less_label">-</string>
+    <string name="place_add_label">+</string>
+    <string name="place_order_count_init">1</string>
+    <string name="footer_label">— 没有更多啦~ —</string>
+    <string name="login_username_edit">请输入账号</string>
+    <string name="login_password_edit">请输入密码</string>
+    <string name="login_btn">登录</string>
+    <string name="cart_empty_label">当前购物车空空如也,快去添加</string>
+    <string name="order_empty_label">还没有下单哦</string>
+    <string name="remarks_edit">请输入备注 留空则是用户默认口味</string>
+
+
+    <string-array name="provinces">
+        <item>河南省</item>
+        <item>山西省</item>
+        <item>福建省</item>
+        <item>广西壮族自治区</item>
+        <item>广东省</item>
+        <item>贵州省</item>
+    </string-array>
+
+    <string-array name="henan">
+
+
+        <item>郑州市</item>
+        <item>安阳市</item>
+        <item>开封市</item>
+        <item>南阳市</item>
+        <item>三门峡市</item>
+        <item>濮阳市</item>
+
+    </string-array>
+
+    <string-array name="guangxi">
+
+        <item>南宁市</item>
+        <item>桂林市</item>
+        <item>柳州市</item>
+        <item>北海市</item>
+        <item>钦州市</item>
+        <item>玉林市</item>
+        <item>百色市</item>
+        <item>河池市</item>
+        <item>防城港市</item>
+    </string-array>
+    <string-array name="shanxi">
+
+        <item>大同市</item>
+        <item>临汾市</item>
+        <item>太原市</item>
+        <item>阳泉市</item>
+        <item>长治市</item>
+        <item>晋城市</item>
+        <item>朔州市</item>
+        <item>晋中市</item>
+        <item>运城市</item>
+    </string-array>
+    <string-array name="fj">
+        <item>福州市</item>
+        <item>厦门市</item>
+        <item>泉州市</item>
+        <item>漳州市</item>
+        <item>福清市</item>
+        <item>莆田市</item>
+        <item>宁德市</item>
+    </string-array>
+    <string-array name="guangdong">
+        <item>广州市</item>
+        <item>深圳市</item>
+        <item>中山市</item>
+        <item>佛山市</item>
+        <item>惠州市</item>
+        <item>珠海市</item>
+        <item>汕头市</item>
+    </string-array>
+    <string-array name="guizhou">
+        <item>贵阳市</item>
+        <item>遵义市</item>
+        <item>安顺市</item>
+        <item>毕节市</item>
+        <item>铜仁市</item>
+        <item>六盘水市</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

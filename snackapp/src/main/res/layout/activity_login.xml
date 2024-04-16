@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity">
+
+    <LinearLayout
+            android:layout_marginTop="40dp"
+            android:id="@+id/rtLytTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+        <ViewFlipper
+                android:id="@+id/flipper"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:outAnimation="@anim/left_in"
+                android:inAnimation="@anim/right_out"
+                tools:ignore="MissingConstraints">
+            <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:src="@drawable/lunbotu3" />
+
+            <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:src="@mipmap/orderguanggao" />
+            <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:src="@drawable/sack" />
+            <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:src="@drawable/lunbotu2" />
+        </ViewFlipper>
+    </LinearLayout>
+    <RelativeLayout
+            android:layout_marginTop="210dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/detail_info"
+            android:orientation="vertical">
+
+
+        <RelativeLayout
+                android:id="@+id/rtLytMiddle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="30dp"
+        >
+
+            <EditText
+                    android:id="@+id/edt_UserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/editext_shape"
+                    android:hint="请输入用户名"
+                    android:inputType="text">
+
+            </EditText>
+        </RelativeLayout>
+
+        <LinearLayout
+                android:id="@+id/rtLyMiddle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/rtLytMiddle"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal">
+
+            <EditText
+                    android:id="@+id/edt_Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/editext_shape"
+                    android:hint="请输入密码"
+                    android:inputType="textPassword">
+
+            </EditText>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_Login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/rtLyMiddle"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_shape"
+            android:text="登录"
+            android:textColor="#ffffff"
+            android:textSize="24sp">
+
+        </Button>
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="230dp">
+
+            <Button
+                    android:id="@+id/btn_Forget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                android:background="@drawable/button_shape"
+                android:textColor="#ffffff"
+                    android:paddingLeft="5dp"
+                    android:text="忘记密码？">
+
+            </Button>
+            <Button
+                    android:id="@+id/btn_Register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                android:background="@drawable/button_shape"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                    android:paddingRight="10dp"
+                    android:text="新用户">
+            </Button>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

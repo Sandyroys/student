@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.DeleteAddressActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="#F5F8F8"
+                  android:orientation="vertical">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <ImageButton
+                    android:background="#03A9F4"
+                    android:id="@+id/back"
+                    android:src="@drawable/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+            </ImageButton>
+            <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="删除或修改收货地址"
+                    android:background="#03A9F4"
+                    android:textSize="30sp"
+                    android:gravity="center">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="用户名:"
+                    android:textSize="24sp">
+
+            </TextView>
+
+
+            <EditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:hint="请输入用户名"
+                    android:inputType="text">
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="姓  名:"
+                    android:textSize="24sp">
+
+            </TextView>
+
+            <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:hint="请输入姓名"
+                    android:inputType="text"
+                    android:maxLength="12">
+
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="手机号:"
+                    android:textSize="24sp">
+
+            </TextView>
+
+
+            <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:hint="请输入手机号"
+                    android:inputType="number">
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="收货地址:"
+                    android:textSize="24sp">
+
+            </TextView>
+
+            <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:hint="地址"
+                    android:inputType="text"
+                    android:maxLength="12">
+
+            </EditText>
+        </LinearLayout>
+
+        <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="70dp"
+                android:text="确认删除"
+                android:background="@drawable/button_shape"
+                android:textColor="#ffffff"
+                android:textSize="24sp">
+
+        </Button>
+        <Button
+            android:id="@+id/alter"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="70dp"
+            android:text="确认修改"
+            android:background="@drawable/button_shape"
+            android:textColor="#ffffff"
+            android:textSize="24sp">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
